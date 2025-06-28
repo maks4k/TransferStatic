@@ -10,6 +10,7 @@
     rel="stylesheet" />
 
   <link rel="stylesheet" href="style.css" />
+  <link href="style-mobile.css" rel="stylesheet" media="screen and (max-width: 600px)">
 </head>
 
 <body>
@@ -27,13 +28,13 @@
       </nav>
       <!-- Здесь будут ваши заголовки, кнопки и т.д. -->
       <div class="header-content">
-        <div>
+        <div class="header-content-container">
           <p class="header-content-text">
             Мы понимаем, насколько важна для вас надёжная и быстрая доставка,
             будь то отправка личных вещей, оборудования или коммерческих
             грузов.
           </p>
-          <button class="header-button">
+          <button class="header-button-fix">
             <p>Бесплатная консультация</p>
           </button>
         </div>
@@ -57,26 +58,27 @@
       </p>
       <div class="blockOneContent">
         <div class="blockOneContent-text">
-          <figure>
+          <figure class="list-content-figure">
             <ul class="list-content">
               <figcaption class="list-header">
                 Благодаря наработанной за годы схеме и знаниям особенностей
                 маршрута, мы можем:
               </figcaption>
-              <li>Оптимизировать путь, избегая крупных заторов.</li>
+              <li class="figcaption-list">Оптимизировать путь, избегая крупных заторов.</li>
               <li>
                 Сохранить груз, поскольку наш водитель соблюдает все нормы
                 транспортировки и знает проверенные стоянки.
               </li>
-              <li>
+              <li class="figcaption-list">
                 Индивидуально подойти к условиям доставки: если вам нужно
                 доставить груз к определённому часу, мы спланируем выезд так,
                 чтобы машина прибыла чётко к назначенному времени.
               </li>
             </ul>
           </figure>
+         
         </div>
-        <div class="blockOneContent-img">
+         <div class="blockOneContent-img">
           <img src="./img/cabina.png" alt="" />
         </div>
       </div>

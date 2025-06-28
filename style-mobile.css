@@ -1,0 +1,164 @@
+header {
+    height: auto;
+    min-height: 100vh;
+    padding-bottom: 40px;
+    background-size: auto; /* или 'cover', если хотите, чтобы картинка полностью закрывала фон */
+    background-position: center;
+  }
+
+  .nav__list {
+  
+    gap: 4px;
+    padding: 20px 16px;
+    align-items: flex-start;
+    max-width: 100%;
+    white-space: nowrap;
+  }
+
+  .listOne {
+    font-size: 16px;
+  }
+
+  .listTwo, .listThree {
+    font-size: 12px;
+  }
+
+  .ListFour {
+    font-size: 10px;
+    width: auto;
+    height: auto;
+    padding-left: 10px;
+    white-space: wrap;
+   
+  }
+
+  .ListFour-mode {
+    font-size: 12px;
+  }
+
+.header-content {
+    position: relative;
+    gap: 24px;
+    padding: 20px 16px;
+    display: flex;
+  }
+  .header-content > div {
+    flex: 1;
+  }
+  .header-content-heading {
+font-size: 17px;
+text-align: left;
+position: absolute;
+top: 19px;
+left: 227px;
+  }
+  .header-content-text {
+   font-size: 12px;
+    width: 100%;
+    height: auto;
+  }
+  
+  .header-content-container{
+    position: relative;
+  }
+.header-button-fix{
+    width: 100%;
+    max-width: 260px;
+    font-size: 10px;
+    gap: 50px;
+    position: absolute;
+    top: 46px;
+    left: 189px;
+  }
+  header {
+    height: auto; 
+    min-height: 70vh; 
+    background-size: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("/img/headerMob.jpg");
+}
+/* //////////// */
+.blockOne{
+    height: 800p;
+}
+.header-blockOne{
+width: 404px;
+height: 45px;
+flex-shrink: 0;
+color: rgba(184, 41, 45, 0.90);
+text-align: center;
+font-family: "Montserrat";
+font-size: 22px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.blockOne-text{
+    margin-top:20px;
+    width: 401px;
+height: 311px;
+flex-shrink: 0;
+color: #000;
+font-family: "Inter";
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.list-header{
+width: 387px;
+height: 363px;
+flex-shrink: 0;
+color: #BF3E42;
+font-family: "Montserrat";
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+position: absolute;
+top: -70px;
+left: -24px;
+}
+.list-content-figure{
+    position: relative;
+}
+.list-content{
+    position: absolute;
+    top: 330px;
+    left:434px;
+
+}
+.figcaption-list{
+    color: #000;
+font-family: "Inter";
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.blockOneContent{
+    height: 1200px;
+}
+.blockOneContent-img{
+    position: relative;
+}
+.blockOneContent-img img{
+    width: 319.323px;
+height: 274px;
+flex-shrink: 0;
+aspect-ratio: 319.32/274.00;
+    position: absolute;
+    top: 0;
+    left: -140px;
+}
+.blockOneFooter{
+    width: 382px;
+height: 191px;
+flex-shrink: 0;
+font-size: 20px;
+}
+.header-blockOne {
+    width: 384px;
+    font-size: 24px;
+}
