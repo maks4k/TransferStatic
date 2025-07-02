@@ -1,0 +1,731 @@
+.header-content-heading {
+    font-size: 48px; /* Было 72px */
+  }
+
+  /* Уменьшаем размер шрифта для текста */
+  .header-content-text {
+    font-size: 18px; /* Было 24px */
+    width: auto; /* Можно убрать фиксированную ширину, чтобы текст лучше адаптировался */
+  }
+
+  /* Уменьшаем размер шрифта для элементов навигации */
+  .listOne {
+    font-size: 30px; /* Было 40px */
+  }
+  .listTwo,
+  .listThree,
+  .ListFour,
+  .ListFour-mode {
+    font-size: 18px; /* Было 24px или 32px */
+  }
+
+  /* Кнопка тоже можно чуть уменьшить */
+  .header-button-fix-fix {
+    width: 250px; /* Было 307px */
+    height: 40px; /* Было 48px */
+    font-size: 16px;
+  }
+  /* //// */
+  .header-blockOne {
+    font-size: 32px; /* уменьшили размер шрифта */
+    width: 80%; /* сделали ширину адаптивной */
+  }
+  .blockOne-text {
+    font-size: 16px;
+    width: 90%;
+  }
+  .list-header {
+    font-size: 24px;
+    width: 90%;
+  }
+  .list-content > li {
+    font-size: 18px;
+  }
+  .blockOneFooter {
+    font-size: 16px;
+    width: 90%;
+  }
+
+  .blockOneContent-img {
+    width: 100%;
+    height: auto;
+  }
+  .blockOneContent {
+    flex-direction: column;
+    gap: 30px;
+  }
+  /* /// */
+  /* Уменьшаем размер шрифта в списках */
+  .custom-list .list-text {
+    font-size: 16px; /* Было 20px */
+    width: auto; /* Убираем фиксированную ширину для адаптивности */
+  }
+
+  /* Уменьшаем размер шрифта в блоке FAQ */
+  .faq-content p {
+    font-size: 16px; /* Было 20px */
+  }
+
+  .faq-link {
+    font-size: 16px;
+  }
+
+  /* Уменьшаем размер шрифта в нижнем списке FAQ */
+  .list__faq-content-bottom {
+    font-size: 18px; /* Было 24px */
+  }
+
+  /* Подгоняем размеры и расположение блоков */
+  .price-description-top,
+  .price-description-bottom {
+    flex-direction: column; /* Вертикальное расположение для удобства */
+    gap: 20px;
+    max-width: 90%;
+    padding: 20px 0;
+  }
+
+  .price-description-top-custom-list,
+  .price-description-bottom-faq {
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .price-description-bottom-img-div {
+    width: 100%;
+  }
+
+  .price-description-bottom-img {
+    width: 100%;
+    height: auto;
+  }
+
+
+  /* /// */
+  .header-info,
+  .header-res,
+  .header-feature-footer {
+    font-size: 32px; /* Было 48px */
+  }
+
+  /* Текст в FAQ */
+  .feature-price-top-text,
+  .faq-content-price p,
+  .faq-link,
+  .input-group span,
+  .input-header,
+  .services label,
+  .feature-price-bottom-result-description p,
+  .feature-price-bottom-result-price p,
+  .text-feature-footer {
+    font-size: 16px; /* Было 20-24px */
+  }
+
+  /* Размеры элементов с фиксированной шириной */
+  .feature-price-top,
+  .feature-price-bottom,
+  .feature-price-bottom-result {
+    max-width: 90%;
+  }
+
+  /* Кнопка */
+  .header-button-fix {
+    font-size: 16px;
+    width: 250px;
+    height: 40px;
+  }
+
+  /* Подгонка размеров индикаторов */
+  .input-groupWeight-idikator,
+  .input-groupValume-idikator {
+    width: 140px;
+    height: 40px;
+    font-size: 16px;
+    left: 320px; /* Подвинуть ближе к слайдеру */
+    top: 20px;
+  }
+
+  /* Слайдеры */
+  .inpuRange {
+    max-width: 400px;
+  }
+
+  /* Сервисы */
+  .services {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  /* Изображения */
+  .feature-price-bottom-img {
+    width: 100%;
+    max-width: 480px;
+  }
+
+  .feature-price-bottom-img img {
+    height: auto;
+  }
+
+  /* Результат расчета */
+  .feature-price-bottom-result {
+    width: 100%;
+    max-width: 480px;
+  }
+
+  /* Отступы и расположение */
+  .feature-price-top,
+  .feature-price-bottom {
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+  }
+
+
+
+
+
+  /* ///// */
+  .section-services{
+    position: relative;
+   top: 175px;
+  }
+  .section-services-headerOne,
+  .section-services-headerTwo,
+  .section-services-headerThree {
+    font-size: 24px; /* Было 32px */
+  }
+
+  /* Уменьшаем размер текста под изображением */
+  .images-services-text {
+    font-size: 16px; /* Было 20px */
+    width: 220px; /* Было 290px */
+    margin-top: 140px; /* Подвинуть текст чуть выше */
+    margin-right: 30px;
+  }
+
+  /* Уменьшаем размер и ширину изображений */
+  .images-services img {
+    width: 280px; /* Было 360px */
+    height: 280px;
+  }
+
+  /* Контейнер с изображениями: меняем расположение на колонку для узких экранов */
+  .images-services {
+    flex-direction: column;
+    height: auto;
+    gap: 20px;
+  }
+
+  /* Заголовки секции */
+  .section-services-headers {
+    gap: 80px; /* Было 200px */
+    padding: 0 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  /* Текст в футере секции */
+  .section-services-footer-text {
+    font-size: 18px; /* Было 24px */
+    width: 90%;
+    margin-top: 30px;
+    text-align: center;
+  }
+
+  /* Картинка в футере */
+  .section-services-footer-img {
+    width: 60px; /* Было 75px */
+    height: 60px;
+    position: relative;
+    left: 0;
+    margin: 20px auto 0 auto;
+  }
+
+  /* ///// */
+   .header__choose {
+    font-size: 32px; /* уменьшили с 48px */
+  }
+
+  /* Масштабируем основной текст */
+  .choose__text {
+    font-size: 18px; /* уменьшили с 24px */
+    width: 90%; /* сделали адаптивной ширину */
+    margin: 0 auto;
+  }
+
+  /* Масштабируем преимущества */
+  .choose__advantages {
+    width: 90%; /* уменьшили с 1920px */
+    height: auto; /* чтобы блок подстраивался по высоте */
+  }
+
+  .choose__advantages-top,
+  .choose__advantages-bottom {
+    flex-direction: column; /* для удобства на узких экранах */
+    gap: 20px;
+  }
+
+  .choose__advantages-top div,
+  .choose__advantages-bottom div {
+    justify-content: flex-start;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+
+  .choose__advantages-top span,
+  .choose__advantages-bottom span {
+    font-size: 18px; /* уменьшили с 24px */
+  }
+
+  .choose__advantages-top-text,
+  .choose__advantages-bottom-text {
+    font-size: 16px; /* уменьшили с 20px */
+    width: 100%;
+  }
+
+  /* Масштабируем футер */
+  .choose__footer-text {
+    font-size: 18px; /* уменьшили с 24px */
+    width: 90%;
+    margin: 30px auto;
+    text-align: center;
+  }
+
+  .choose__footer-img {
+    width: 60px; /* уменьшили с 75px */
+    height: 60px;
+    position: static; /* убрали relative */
+    margin: 0 auto;
+    display: block;
+  }
+
+  /* Смещаем весь блок вниз на 150px */
+  .why-choose-us {
+    position: relative;
+   top: 145px;
+        left: 51px;
+    margin-top: 300px; /* исходные 150 + 150 */
+  }
+
+  /* ///// */
+  .delivery-process{
+    position: relative;
+   top: 153px;
+    left:10px;
+  }
+  .delivery-process-header {
+    font-size: 32px; /* Было 48px */
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  /* Подзаголовок */
+  .delivery-process-variant {
+    font-size: 18px; /* Было 24px */
+    width: 90%;
+    margin: 10px auto 30px auto;
+    text-align: center;
+  }
+
+  /* Основной блок с категориями и правым блоком */
+  .delivery_block {
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+  }
+
+  /* Сетка категорий */
+  .categories-section-delivery {
+    grid-template-columns: repeat(2, 1fr); /* 2 колонки вместо 3 */
+    width: 90%;
+    padding: 15px;
+  }
+
+  /* Изображения категорий */
+  .category-item img {
+    width: 180px; /* Было 230px */
+    height: 120px; /* Было 150px */
+  }
+
+  /* Текст категорий */
+  .categories-section-delivery-text {
+    font-size: 16px; /* Было 20px */
+  }
+
+  /* Правый блок */
+  .delivery_block-right {
+    width: 90%;
+    align-items: center;
+  }
+
+  .delivery-faq {
+    width: 100%;
+    max-width: 350px;
+    height: auto;
+    padding: 20px;
+    top: 0;
+  }
+
+  .delivery-faq-text {
+    font-size: 16px; /* Было 20px */
+    text-align: center;
+  }
+
+  .delivery-faq-image {
+    width: 40px;
+    height: 40px;
+    top: -50px;
+    left: 50%;
+    transform: translateX(-50%) rotate(45deg);
+    position: relative;
+    top: 0;
+    left: 0;
+  transform: rotate(15deg);
+  top: -227px;
+        left: 178px;
+      
+  }
+
+  /* Изображение машины */
+  .delivery_block-right-img img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 24px;
+  }
+
+  /* Текст внизу */
+  .delivery-process-footer {
+    font-size: 16px; /* Было 20px */
+    width: 90%;
+    margin: 0 auto 40px auto;
+    text-align: center;
+  }
+  /* /////// */
+  .five-step{
+    position: relative;
+           top: 108px;
+        left: 41px;
+        margin-bottom: 500px;
+  }
+   /* Заголовок */
+  .five-step-header {
+    font-size: 32px; /* уменьшено с 48px */
+    width: 90%;
+    margin: 50px auto;
+    text-align: center;
+  }
+
+  /* Контейнер с текстом */
+  .five-step-container {
+    width: 90%;
+    height: auto;
+    padding: 10px 20px;
+  }
+
+  .fs-contentHeader-text {
+    font-size: 18px; /* уменьшено с 24px */
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  /* Контент с изображением и текстом */
+  .fs-content-info-header {
+    flex-direction: column;
+    gap: 20px;
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 10px;
+  }
+
+  .fs-info-header-image {
+    max-width: 100%;
+    max-height: auto;
+    width: 100%;
+    position: relative;
+    top: 0;
+        left: -48px;
+  }
+
+  .fs-info-header-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+  }
+
+  .fs-info-header-texts {
+    width: 100%;
+    text-align: center;
+    gap: 10px;
+  }
+  .fs-info-header-texts-footer,.fs-info-header-texts{
+    position: relative;
+  }
+  .fs-pos-one{
+    position: absolute;
+   top: 46px;
+        left: -76px;
+  }
+  .fs-pos-two{
+   position: absolute;
+               top: 93px;
+        left: -79px;
+  }
+  .fs-pos-three{
+   position: absolute;
+        top: 150px;
+        left: -80px;
+  }
+  .fs-pos-four{
+   position: absolute;
+                  top: 214px;
+        left: -36px;
+      
+  }
+  .fs-pos-five{
+   position: absolute;
+  top: 280px;
+        left: -34px;
+  }
+
+  .fs-info-header-text,
+  .fs-info-footer-text {
+    font-size: 16px; /* уменьшено с 20px */
+    width: 100%;
+   
+  }
+
+  .fs-info-header-text-mode {
+    font-size: 20px; /* уменьшено с 24px */
+  }
+
+  /* Футерный контейнер */
+  .five-step-container-footer {
+    display: none;
+  }
+
+  /* Позиционирование SVG-иконок */
+  .five-step-content-svgOne,
+  .five-step-content-svgTwo,
+  .five-step-content-svgThree,
+  .five-step-content-svgFour {
+   display: none;
+  }
+  /* //// */
+  .pop-responce-title {
+    font-size: 32px; /* Было 48px */
+  }
+
+  /* Вопросы */
+  .pop-responce-question {
+    font-size: 24px; /* Было 32px */
+  }
+
+  /* Ответы */
+  .pop-responce-answer {
+    font-size: 18px; /* Было 24px */
+    width: 90%; /* Сделать ширину адаптивной */
+    margin: 20px auto 0 auto;
+    height: auto; /* Убрать фиксированную высоту */
+  }
+
+  /* Контейнер с пунктами */
+  .pop-responce-item,
+  .pop-responce-item-active {
+    height: auto; /* Убрать фиксированную высоту */
+    padding: 15px 20px;
+  }
+
+  /* Текст в футере */
+  .pop-responce-footer {
+    font-size: 18px; /* Было 24px */
+    padding: 0 10px;
+  }
+
+  /* Кнопка */
+  .responce-btn {
+    width: 250px;
+    height: 50px;
+    font-size: 16px;
+  }
+  .pop-responce-list {
+  width: 80%;       /* или любое другое значение, например 600px */
+  max-width: 600px; /* ограничение максимальной ширины */
+  margin: 0 auto;   /* центрирование по горизонтали */
+  padding: 0;
+  list-style-type: none;
+}
+.pop-responce-container{
+    height: 715px;
+}
+
+
+/* //// */
+.guarantees-title {
+    font-size: 32px;       /* Было 48px */
+    width: 90%;            /* Сделать адаптивным */
+    height: auto;
+    margin-top: 50px;
+  }
+
+  /* Основной текст */
+  .guarantees-text {
+    font-size: 18px;       /* Было 24px */
+    width: 90%;
+    margin: 50px auto;
+  }
+
+  /* Контейнер с двумя блоками */
+  .guarantees-container {
+    flex-direction: column; /* Вертикальное расположение */
+    gap: 40px;
+    align-items: center;
+  }
+
+  /* Левая колонка */
+  .guarantees-left {
+    width: 90%;
+    max-width: 450px;
+    height: auto;
+    padding: 20px;
+  }
+
+  /* Изображение в левой колонке */
+  .guarantees-left-img {
+    top: -10px;
+    left: auto;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+  }
+
+  /* Текст в списке */
+  .guarantees-left-item {
+    font-size: 18px;       /* Было 24px */
+    margin-bottom: 12px;
+  }
+
+  .guarantees-left-text {
+    margin-top: 20px;
+  }
+
+  /* Правая колонка */
+  .guarantees-right-text {
+    font-size: 18px;       /* Было 24px */
+    width: 90%;
+    max-width: 450px;
+    margin: 0 auto 20px auto;
+    text-align: center;
+  }
+
+  /* Кнопка */
+  .guarantees-right-btn {
+    width: 250px;
+    height: 40px;
+    font-size: 16px;
+  }
+  /* //// */
+  .form_call-title {
+    font-size: 28px; /* Было 36px */
+    margin-bottom: 30px;
+  }
+
+  /* Контейнер с картинками и формой */
+  .form_call-container {
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+  }
+
+  /* Колонка с иконками */
+  .form_call-container-pic {
+    flex-direction: row;
+    gap: 30px;
+    margin-bottom: 0;
+  }
+
+  .form_call-container-pic img {
+    width: 50px; /* Было 75px */
+    height: 50px;
+  }
+
+  /* Форма */
+  .form {
+    width: 90%;
+    max-width: 600px;
+    gap: 20px;
+  }
+
+  /* Поля ввода */
+  input,
+  .inputTextAria {
+    width: 100%;
+    height: 60px; /* Было 80px */
+    font-size: 18px; /* Уменьшаем шрифт */
+  }
+
+  .inputTextAria {
+    height: 140px; /* Было 188px */
+  }
+
+  /* Плейсхолдеры */
+  input::placeholder,
+  .inputTextAria::placeholder {
+    font-size: 18px; /* Было 24px */
+  }
+
+  /* Кнопка */
+  .form-button {
+    width: 140px; /* Было 163px */
+    height: 40px; /* Было 48px */
+    font-size: 16px;
+  }
+
+
+  /* //// */
+  .footer {
+    width: 100%;          /* Сделать ширину адаптивной */
+    height: auto;        /* Убрать фиксированную высоту */
+    margin: 40px auto 0 auto;
+    padding: 20px 0;
+    position: relative;
+   top: 0;
+        left: 10px;
+  }
+
+  .footer-container {
+    flex-direction: column;  /* Расположить блоки вертикально */
+    align-items: flex-start; /* Выравнивание по левому краю */
+    gap: 30px;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  .footer-container-left,
+  .footer-container-right {
+    width: 100%;
+  }
+
+  .footer-spisok {
+    width: 100%;
+    height: auto;      /* Убрать фиксированную высоту */
+    padding-left: 0;
+  }
+
+  .footer-container-text,
+  .footer-phone,
+  .footer-list,
+  .footer-container-right-text {
+    font-size: 18px;   /* Уменьшить размер шрифта */
+    line-height: 1.4;
+  }
+
+  .footer-phone {
+    text-decoration-thickness: 1.5px; /* Сделать подчеркивание чуть толще */
+  }
+
+  .footer-container-right-text {
+    width: 100%;
+    height: auto;
+  }
