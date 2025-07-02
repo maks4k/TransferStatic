@@ -96,7 +96,7 @@
     </section>
     <section class="price-description">
       <div class="price-description-top">
-        <div>
+        <div class="price-description-top-custom-list">
           <ul class="custom-list">
             <li>
               <img src="./img/vesi.png" alt="" class="list-icon" />
@@ -153,7 +153,7 @@
             </ul>
           </div>
         </div>
-        <div>
+        <div class="price-description-bottom-img-div">
           <img class="price-description-bottom-img" src="./img/kuzov.jpg" alt="" />
         </div>
       </div>
@@ -252,8 +252,8 @@
     </section>
     <section class="feature-price">
       <div class="feature-price-heading">
-        <h1 class="header ">Важная информация</h1>
-        <h1 class="header">Расчитать платеж</h1>
+        <h1 class="header-info">Важная информация</h1>
+        <h1 class="header-res">Расчитать платеж</h1>
       </div>
       <div class="feature-price-top">
         <div class="feature-price-faq">
@@ -268,17 +268,17 @@
             </p>
           </div>
         </div>
-        <div class="feature-price-calculation">
+        <div class="feature-price-calculation"> 
           <div class="input-group">
             <div class="input-header">
               <span>Масса груза</span>
             </div>
             <div class="range-container">
-              <input type="range" id="weight" min="0" max="3000" value="0" step="100">
+              <input class="inpuRange" type="range" id="weight" min="0" max="3000" value="0" step="100">
             </div>
             <div class="range-labels">
               <span id="weight-value">0 кг</span>
-              <span>3.000 кг</span>
+              <span id="max-value-weight">3.000 кг</span>
             </div>
           </div>
 
@@ -287,31 +287,14 @@
               <span>Объём груза</span>
             </div>
             <div class="range-container">
-              <input type="range" id="volume" min="0" max="15" value="0" step="0.1">
+              <input class="inpuRange"  type="range" id="volume" min="0" max="15" value="0" step="0.1">
             </div>
             <div class="range-labels">
               <span id="volume-value">0 м³</span>
-              <span>15 м³</span>
+              <span id="max-value-volume">15 м³</span>
             </div>
           </div>
-          <div class="input-header">
-            <span class="input-header-checkbox">Дополнительные услуги</span>
-          </div>
-          <!-- <div class="services">
        
-        <div class="service-item">
-            <input type="checkbox" id="loaders">
-            <label for="loaders">Грузчики</label>
-        </div>
-        <div class="service-item">
-            <input type="checkbox" id="insurance">
-            <label for="insurance">Страхование</label>
-        </div>
-        <div class="service-item">
-            <input type="checkbox" id="insurance">
-            <label for="insurance">Хранение</label>
-        </div>
-    </div> -->
           <div class="input-header-checkbox">Дополнительные услуги:</div>
           <div class="services">
             <div class="service-item">
@@ -360,7 +343,7 @@
             </div>
           </div>
           <div class="feature-price-bottom-result-btn">
-            <button class="header-button">Получить скидку</button>
+            <button class="header-button-fix">Получить скидку</button>
           </div>
         </div>
       </div>
@@ -386,9 +369,9 @@
         </div>
       </div>
       <div class="section-services-headers">
-        <h3 class="section-services-header">Грузчики</h3>
-        <h3 class="section-services-header">Страхование</h3>
-        <h3 class="section-services-header">Ответственное <br>
+        <h3 class="section-services-headerOne">Грузчики</h3>
+        <h3 class="section-services-headerTwo">Страхование</h3>
+        <h3 class="section-services-headerThree">Ответственное <br>
           хранение</h3>
       </div>
       <div class="section-services-footer">
@@ -527,12 +510,12 @@
               <img src="/img/pogruzchik.jpg" alt="">
             </div>
             <div class="fs-info-header-texts">
-              <p class="fs-info-header-text"><span class="fs-info-header-text-mode">1.Первый контакт</span><br>
+              <p class="fs-info-header-text fs-pos-one"><span class="fs-info-header-text-mode">1.Первый контакт</span><br>
                 Позвоните или заполните форму на сайте. Опишите, что нужно перевезти и куда.</p>
-              <p class="fs-info-header-text"><span class="fs-info-header-text-mode">2.Уточнение деталей</span><br>
+              <p class="fs-info-header-text fs-pos-two"><span class="fs-info-header-text-mode">2.Уточнение деталей</span><br>
                 Менеджер свяжется с вами, чтобы согласовать все параметры: вес, объём, сроки, наличие хрупких предметов.
               </p>
-              <p class="fs-info-header-text"><span class="fs-info-header-text-mode">3.Договор и расчёт</span><br>
+              <p class="fs-info-header-text fs-pos-three"><span class="fs-info-header-text-mode">3.Договор и расчёт</span><br>
                 Подтверждаем стоимость, заключаем договор и назначаем точную дату выезда транспорта. Всё фиксируется
                 документально, чтобы вы чувствовали себя уверенно.</p>
             </div>
@@ -540,16 +523,16 @@
         </div>
         <div class="fs-content-info-footer">
           <div class="fs-info-header-texts-footer">
-            <p class="fs-info-footer-text"><span class="fs-info-header-text-mode">4.Погрузка и маршрут</span><br>
+            <p class="fs-info-footer-text fs-pos-four"><span class="fs-info-header-text-mode">4.Погрузка и маршрут</span><br>
               В оговорённый день наша машина прибывает по нужному адресу. Мы бережно грузим ваш товар и отправляемся в
               путь. При необходимости вы получаете информацию об этапе перевозки.</p>
-            <p class="fs-info-footer-text"><span class="fs-info-header-text-mode">5.Доставка и выгрузка</span><br>
+            <p class="fs-info-footer-text fs-pos-five"><span class="fs-info-header-text-mode">5.Доставка и выгрузка</span><br>
               По прибытии мы связываемся с вами или с получателем, разгружаем груз, проверяем его состояние. Всё —
               перевозка завершена, вы остаётесь довольны результатом.</p>
           </div>
         </div>
       </div>
-      <div class="five-step-container">
+      <div class="five-step-container five-step-container-footer">
         <p class="fs-contentHeader-text">
           Уже сейчас хотите забронировать дату перевозки? Оставьте заявку — и мы всё возьмём на себя.
 

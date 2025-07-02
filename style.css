@@ -300,6 +300,7 @@ aspect-ratio: 155/133;
   margin: 0 auto;
 }
 
+
 /* /////////// */
 .price-description-top {
   display: flex;
@@ -451,6 +452,14 @@ aspect-ratio: 155/133;
   margin-right: auto;
   padding: 0 20px; /* Защита от прилипания к краям */
 }
+.header-res,.header-info{
+  color: #BF3E42;
+font-family: "Montserrat";
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
 .faq-pin {
   position: absolute;
   top: -13px;
@@ -523,45 +532,69 @@ aspect-ratio: 155/133;
 }
 
 .range-container {
+  width: 100%;
+  max-width: 520px;
+  margin: 0 auto;
   position: relative;
   height: 30px;
 }
 
-input[type="range"] {
+.inpuRange {
   -webkit-appearance: none;
-  width: 320px;
+  width: 100%;
+  max-width: 520px;
+  height: 2px;
+  background: transparent;
+  margin: 12px 0;
+  position: relative;
+  top: 0;
+  left: 0;
+
+}
+
+/* Для Chrome, Safari, Opera */
+.inpuRange::-webkit-slider-runnable-track {
   height: 2px;
   background: #bf3e42;
   border-radius: 3px;
-  outline: none;
-  margin: 12px 0;
-}
-
-/* Для Chrome/Safari */
-input[type="range"]::-webkit-slider-thumb {
-  -webkit-appearance: none;
-  width: 24px;
-  height: 24px;
-  filter: drop-shadow(5px 5px 4px rgba(0, 0, 0, 0.25));
-  background-color: white;
-  border-radius: 50%;
-  cursor: pointer;
-  border: 3px solid #bf3e42;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 /* Для Firefox */
-input[type="range"]::-moz-range-thumb {
+.inpuRange::-moz-range-track {
+  height: 2px;
+  background: #bf3e42;
+  border-radius: 3px;
+}
+
+/* Для IE и Edge */
+.inpuRange::-ms-fill-lower,
+.inpuRange::-ms-fill-upper {
+  height: 2px;
+  background: #bf3e42;
+  border-radius: 3px;
+}
+
+/* Убираем стандартный фон на мобильных */
+.inpuRange:focus {
+  outline: none;
+}
+
+/* Стили для ползунка (thumb) — не меняются */
+.inpuRange::-webkit-slider-thumb {
+  -webkit-appearance: none;
   width: 24px;
   height: 24px;
-  filter: drop-shadow(5px 5px 4px rgba(0, 0, 0, 0.25));
+  margin-top: -11px; /* (24px - 2px) / 2 = 11px */
   background-color: white;
   border-radius: 50%;
   cursor: pointer;
   border: 3px solid #bf3e42;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  filter: drop-shadow(5px 5px 4px rgba(0, 0, 0, 0.25));
 }
-
+#max-value-weight,#weight-value,#volume-value,#max-value-volume{
+  margin-top: 15px;
+}
 .range-labels {
   display: flex;
   justify-content: space-between;
@@ -1473,3 +1506,19 @@ font-style: normal;
 font-weight: 400;
 line-height: normal;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
