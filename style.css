@@ -201,7 +201,7 @@ header {
 .header-blockOne {
   text-align: center;
   color: rgba(184, 41, 45, 0.9);
-  font-family: Montserrat;
+  font-family: "Montserrat";
   font-size: 48px;
   font-style: normal;
   font-weight: 700;
@@ -1513,7 +1513,9 @@ line-height: normal;
 
 
 
-
+button{
+font-family: "Inter";
+}
 
 
 
