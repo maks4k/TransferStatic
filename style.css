@@ -185,7 +185,7 @@ header {
   font-weight: 600;
   line-height: normal;
 }
-.header-button-fix-fix {
+.header-button-fix-fix ,.header-button-fix{
   border-radius: 24px;
   background: rgba(184, 41, 45, 0.9);
   width: 307px;
@@ -194,6 +194,7 @@ header {
   cursor: pointer;
   color: white;
 }
+
 .header-button > p {
   color: white;
 }
@@ -521,6 +522,7 @@ line-height: normal;
 
 .input-group {
   margin-bottom: 30px;
+  position: relative;
 }
 
 .input-header {
@@ -533,10 +535,39 @@ line-height: normal;
 
 .range-container {
   width: 100%;
-  max-width: 520px;
+  max-width: 320px;
   margin: 0 auto;
   position: relative;
   height: 30px;
+}
+.input-groupWeight-idikator{
+width: 176px;
+height: 48px;
+flex-shrink: 0;
+border-radius: 24px;
+background: #BF3E42;
+color: #fff!important;
+display: flex;
+justify-content: center;
+align-items: center;
+position: absolute;
+top: 25px;
+left: 430px;
+
+}
+.input-groupValume-idikator{
+  position: absolute;
+ top: 20px;
+left: 430px;
+  width: 176px;
+height: 48px;
+flex-shrink: 0;
+border-radius: 24px;
+background: #BF3E42;
+color: #fff!important;
+display: flex;
+justify-content: center;
+align-items: center;
 }
 
 .inpuRange {
@@ -594,6 +625,7 @@ line-height: normal;
 }
 #max-value-weight,#weight-value,#volume-value,#max-value-volume{
   margin-top: 15px;
+  border-radius: 24px;
 }
 .range-labels {
   display: flex;
